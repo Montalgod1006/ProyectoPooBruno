@@ -1,0 +1,18 @@
+info:
+  name: Create
+  type: http
+  seq: 6
+
+http:
+  method: POST
+  url: "{{PATH_URL}}/statistic"
+  body:
+    type: json
+    data: ""
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
