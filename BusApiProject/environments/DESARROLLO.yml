@@ -2,3 +2,5 @@ name: DESARROLLO
 variables:
   - name: PATH_URL
     value: http://localhost:5228/api
+  - name: BusProjet
+    value: http://localhost:5228/api

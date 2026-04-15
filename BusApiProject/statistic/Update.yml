@@ -1,0 +1,28 @@
+info:
+  name: Update
+  type: http
+  seq: 4
+
+http:
+  method: PUT
+  url: "{{PATH_URL}}/statistic/"
+  body:
+    type: json
+    data: |-
+      {
+        
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+
+docs: |-
+  Este es el update, lo unico que se necesita es poner la fecha arriba en el put. 
+  Lo que va a hacer es buscar si esa fecha existe en la 
+  tabla de Dailies Statistic, si existe entonces se va a la tabla de routes y actualiza con los datos mas recientes.
+
+  No se necesita poner ningun dato en el Body, ya que es ilogico poner mano a los datos.

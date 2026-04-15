@@ -5,10 +5,16 @@ info:
 
 http:
   method: PUT
-  url: "{{PATH_URL}}/routes"
+  url: "{{PATH_URL}}/routes/"
   body:
     type: json
-    data: ""
+    data: |-
+      {
+        "BusId" : "",
+        "Date" : "",
+        "Hour" : "",
+        "TotalPassengers" : ""
+      }
   auth: inherit
 
 settings:

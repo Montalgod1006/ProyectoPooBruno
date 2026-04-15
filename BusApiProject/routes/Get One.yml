@@ -5,7 +5,7 @@ info:
 
 http:
   method: GET
-  url: "{{PATH_URL}}/routes"
+  url: "{{PATH_URL}}/routes/"
   auth: inherit
 
 settings:
