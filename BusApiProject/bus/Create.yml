@@ -24,3 +24,7 @@ settings:
   timeout: 0
   followRedirects: true
   maxRedirects: 5
+
+docs: |-
+  En este endpoint se procede a crear los datos para los buses y sus respectivas rutas.
+  Se necesita el modelo del bus, el numero de ruta el     cual es obligatorio, y tambien los datos del conductor.

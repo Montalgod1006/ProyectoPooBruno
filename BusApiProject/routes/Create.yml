@@ -22,3 +22,5 @@ settings:
   timeout: 0
   followRedirects: true
   maxRedirects: 5
+
+docs: en este endpoint, se crean los datos para la tabla de   rutas, en la cual se necesita la fecha, la cual es un valor requerido y de suma importancia. Tambien se necesita el id del bus, este id luego en el mostrar al ser una llave foranea muestra tambien el numero de ruta. Por ultimo se recopilan valores varios como el numero de estudiantes que usaron el bus y la hora.

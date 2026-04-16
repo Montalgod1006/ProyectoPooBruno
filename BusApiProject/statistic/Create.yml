@@ -10,11 +10,7 @@ http:
     type: json
     data: |-
       {
-        "Date": "",
-        "TotalPassengersDay" : "",
-        "RushHour" : "",
-        "OffPeakHour" : "",
-        "MostUsedRoute" : ""
+        "Date": ""
       }
   auth: inherit
 
@@ -23,3 +19,8 @@ settings:
   timeout: 0
   followRedirects: true
   maxRedirects: 5
+
+docs: |-
+  Aqui, solo pedimos la fecha, Cuando el programa recibe la fecha, va  a buscar si esa fecha existe en la tabla de routas. si existe ahi, procede a la siguiente evaluación, que es verificar si ya existe en la tabla de estadisticas. si existe pues se detiene el programa.
+  Si no existe entonces el programa procede a recopilar los datos de la tabla routes, como puede ser la hora 
+  pico, la ruta mas usada, etc.
